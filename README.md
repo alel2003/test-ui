@@ -11,8 +11,8 @@ Follow these steps to set up and run the MHP-UI on your local machine.
 Start by cloning the repository:
 
 ```bash
-git clone https://github.com/frontend-base-architecture/vite-landing.git
-cd frontend-base-architecture
+git clone https://github.com/alel2003/test-ui.git
+cd test-ui
 ```
 
 ### 2. Install Dependencies
