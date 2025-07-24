@@ -51,9 +51,11 @@ export default function ResultsMain() {
             className="w-fit rounded-[25px] border-2 border-[#7CFC00] px-4 py-2 text-[#7CFC00] uppercase transition-colors duration-300 ease-in-out hover:border-white hover:text-white">
             Back
           </Link>
+          {manualInput.number && (
           <span className="text-[16px] text-white md:text-[20px]">
-            Number: {manualInput.number}
+            Number: { manualInput.number }
           </span>
+          )}
           <p className="text-[16px] text-[#7CFC00] md:text-[20px]">{data}</p>
         </>
       )}
